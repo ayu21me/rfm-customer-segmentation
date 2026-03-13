@@ -71,28 +71,28 @@ These fields enable analysis of **customer purchasing behavior and revenue contr
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
+
+```
 rfm-customer-segmentation/
-
 │
-
 ├── data/
-│ 
-└── online_retail.csv
-
+│   └── online_retail.csv
+│
 ├── notebooks/
-│ └── rfm_analysis.ipynb
-
+│   └── rfm_analysis.ipynb
+│
 ├── dashboard/
-│ └── rfm_dashboard.pbix
-
+│   └── rfm_dashboard.pbix
+│
 ├── outputs/
-│ └── rfm_customer_segments.csv
-
+│   └── rfm_customer_segments.csv
+│
 ├── images/
-│ └── dashboard_preview.png
-
+│   └── dashboard_preview.png
+│
 └── README.md
+```
 
 
 ---
