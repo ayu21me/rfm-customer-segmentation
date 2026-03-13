@@ -1,49 +1,152 @@
-# Customer Segmentation using RFM Analysis
+# 📊 Customer Segmentation Using RFM Analysis
 
-## Project Overview
-This project analyzes customer purchasing behavior using RFM (Recency, Frequency, Monetary) analysis to segment customers based on their transaction patterns.
+## 🚀 Overview
 
-The goal is to help businesses understand customer value and design targeted marketing strategies.
+This project performs **customer segmentation using RFM (Recency, Frequency, Monetary) analysis** on an e-commerce retail dataset.
+
+The objective is to identify **high-value customers, churn risks, and potential loyal customers** to support data-driven marketing strategies.
+
+An interactive **Power BI dashboard** was built to visualize customer segments and revenue contribution.
 
 ---
 
-## Dataset
-Online Retail Dataset containing transactional records including:
+# 💼 Business Problem
 
+Businesses often struggle to answer questions like:
+
+- Who are our most valuable customers?
+- Which customers are likely to churn?
+- Which customers should be targeted for promotions?
+
+Without segmentation, marketing campaigns are often **inefficient and costly**.
+
+This project helps organizations:
+
+- Identify **high-value customers**
+- Detect **customers at risk of churn**
+- Improve **customer retention strategies**
+- Optimize **marketing campaigns**
+
+---
+
+# 🎯 Objectives
+
+The main objectives of this project are:
+
+- Analyze customer purchase behavior
+- Calculate **Recency, Frequency, and Monetary (RFM) metrics**
+- Segment customers based on purchasing patterns
+- Build an **interactive Power BI dashboard**
+- Provide **actionable business insights**
+
+---
+
+# 🛠️ Tech Stack
+
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+- Power BI
+- Git & GitHub
+
+---
+
+# 📊 Dataset
+
+The project uses the **Online Retail dataset**, which contains transactional data from an e-commerce store.
+
+Dataset size:
+
+**500K+ retail transactions**
+
+Key fields include:
+
+- InvoiceNo
 - CustomerID
 - InvoiceDate
 - Quantity
 - UnitPrice
 - Country
 
+These fields enable analysis of **customer purchasing behavior and revenue contribution**.
+
 ---
 
-## Methodology
+# 📂 Project Structure
+rfm-customer-segmentation/
 
-### 1 Data Cleaning
+│
+
+├── data/
+│ └── online_retail.csv
+
+├── notebooks/
+│ └── rfm_analysis.ipynb
+
+├── dashboard/
+│ └── rfm_dashboard.pbix
+
+├── outputs/
+│ └── rfm_customer_segments.csv
+
+├── images/
+│ └── dashboard_preview.png
+
+└── README.md
+
+
+---
+
+# 📊 Dashboard
+
+An interactive **Power BI dashboard** was developed to analyze customer segments and revenue patterns.
+
+Dashboard highlights:
+
+- Customer distribution by segment
+- Revenue contribution by segment
+- Total customers and revenue KPIs
+- RFM scatter plot showing customer behavior
+- Key business insights for marketing teams
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+# 🔍 Key Features
+
+## 📊 Data Cleaning
+
 - Removed cancelled orders
-- Removed negative quantities
+- Removed negative quantities (returns)
 - Handled missing Customer IDs
 
-### 2 Feature Engineering
-Created a revenue column:
+---
 
+## 🧮 Feature Engineering
+
+Created a new feature:
 Revenue = Quantity × UnitPrice
 
-### 3 RFM Metrics
+Then calculated **RFM metrics**.
 
-Recency  
-Days since last purchase
+---
 
-Frequency  
-Number of purchases made by the customer
+## 🧮 RFM Metrics
 
-Monetary  
-Total spending by the customer
+### Recency
+Number of days since the customer's last purchase.
 
-### 4 Customer Segmentation
+### Frequency
+Number of purchases made by the customer.
 
-Customers were segmented into:
+### Monetary
+Total amount spent by the customer.
+
+---
+
+## 🧩 Customer Segmentation
+
+Customers were segmented into the following groups:
 
 - Champions
 - Loyal Customers
@@ -51,45 +154,45 @@ Customers were segmented into:
 - At Risk
 - Lost Customers
 
----
-
-## Dashboard
-
-The Power BI dashboard provides:
-
-- Customer distribution by segment
-- Revenue contribution by segment
-- RFM scatter analysis
-- Key business insights
-
-![Dashboard Preview](images/dashboard_preview.png)
+These segments help businesses understand **customer value and engagement levels**.
 
 ---
 
-## Key Insights
+# 📌 Key Insights
 
-- Champions contribute the highest revenue despite being fewer customers
-- Lost customers form the largest segment indicating potential churn
-- Loyal customers demonstrate consistent purchasing behavior
-- Potential loyalists can be converted to champions through targeted campaigns
-
----
-
-## Tools Used
-
-Python  
-Pandas  
-Jupyter Notebook  
-Power BI  
+- Total revenue exceeded **£8.9M across 4,339 customers**.
+- **Champions contribute the highest revenue**, despite being fewer customers.
+- **Lost Customers form the largest segment**, indicating potential churn risk.
+- **Loyal Customers demonstrate consistent purchasing behavior**.
+- **Potential Loyalists can be converted into Champions through targeted promotions**.
 
 ---
 
-## Business Impact
+# 📊 Business Impact
 
-This segmentation helps businesses:
+This segmentation helps organizations:
 
-- Identify high value customers
-- Improve retention strategies
-- Design targeted marketing campaigns
-- Increase overall revenue
+- Identify **high-value customers**
+- Reduce **customer churn**
+- Personalize **marketing campaigns**
+- Improve **customer lifetime value**
+- Allocate **marketing budgets more effectively**
 
+---
+
+# 💡 Learnings
+
+This project helped develop skills in:
+
+- Data cleaning and preprocessing
+- Feature engineering
+- Customer segmentation techniques
+- Business analytics
+- Data visualization with Power BI
+- Communicating insights through dashboards
+
+---
+
+# 👨‍💻 Author
+
+Ayush Yadav
