@@ -161,11 +161,17 @@ These segments help businesses understand **customer value and engagement levels
 
 # 📌 Key Insights
 
-- Total revenue exceeded **£8.9M across 4,339 customers**.
-- **Champions contribute the highest revenue**, despite being fewer customers.
-- **Lost Customers form the largest segment**, indicating potential churn risk.
-- **Loyal Customers demonstrate consistent purchasing behavior**.
-- **Potential Loyalists can be converted into Champions through targeted promotions**.
+- Total revenue generated exceeded **£8.9M across 4,339 customers**, highlighting the overall business value of the customer base.
+
+- **Champions contributed the largest share of revenue**, despite representing a smaller proportion of total customers, indicating a highly valuable customer segment.
+
+- The average customer purchase frequency was **4.27 orders**, indicating moderate repeat purchasing behavior across the customer base.
+  
+- **Lost Customers formed the largest customer segment**, suggesting potential churn risk and the need for re-engagement campaigns.
+
+- **Loyal Customers demonstrated consistent purchasing behavior**, making them strong candidates for loyalty programs and personalized promotions.
+
+- **Potential Loyalists represent an opportunity segment** that can be converted into Champions through targeted marketing strategies.
 
 ---
 
