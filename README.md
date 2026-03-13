@@ -77,7 +77,8 @@ rfm-customer-segmentation/
 │
 
 ├── data/
-│ └── online_retail.csv
+│ 
+└── online_retail.csv
 
 ├── notebooks/
 │ └── rfm_analysis.ipynb
